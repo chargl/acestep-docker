@@ -80,8 +80,9 @@ This container mounts two important folders for persistence:
 
 ## What About AMD or Intel GPUs?
 
-This container is not compatible with AMD or Intel GPUs: cf [thread on HuggingFace](https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/discussions/7).
-You may find success using ACE-Step through ComfyUI instead
+This container is [not compatible with AMD or Intel GPUs](https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/discussions/7).
+
+You may find success using ACE-Step through ComfyUI instead.
 
 ---
 
