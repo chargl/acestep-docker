@@ -38,7 +38,7 @@ docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
 
 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/acestep-docker.git
+git clone https://github.com/chargl/acestep-docker.git
 cd acestep-docker
 ```
 
