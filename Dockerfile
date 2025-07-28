@@ -29,7 +29,7 @@ RUN pip3 install --no-cache-dir --pre torch torchvision torchaudio --index-url h
     mkdir -p /home/ubuntu/.cache/matplotlib
 
 RUN git clone --depth 1 https://github.com/ace-step/ACE-Step.git . && \
-    pip3 install -e .
+    pip3 install --no-cache-dir -e .
 
 
 EXPOSE 7865

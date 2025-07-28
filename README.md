@@ -1,4 +1,4 @@
-# acesteo-docker
+# acestep-docker
 This repository provides a Dockerfile and docker-compose.yml configuration to quickly set up and run ACEStep in a containerized environment. 
 It comes pre-configured for GPU support with NVIDIA hardware, although it can be adapted for AMD or Intel GPUs.
 
@@ -9,7 +9,7 @@ TODO
 ## Features
 
 - Dockerized Environment: Easily deploy ACEStep with all necessary dependencies.
-- GPU Support: Default setup for NVIDIA GPUs, with options for AMD/Intel GPUs.
+- GPU Support: Default setup for NVIDIA GPUs.
 - Persistent Volumes: Mounts for model and outputs to ensure persistent data.
 
 
@@ -37,7 +37,6 @@ docker compose build
 ```
 
 3. Start the container
-
 Attached mode (will display logs in the terminal):
 ```shell
 docker compose up
