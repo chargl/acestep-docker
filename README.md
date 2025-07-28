@@ -2,7 +2,7 @@
 
 This repository provides a ready-to-use Docker environment for running [ACE-Step](https://github.com/ace-step/ACE-Step) with full GPU acceleration (NVIDIA only). It exposes the ACE-Step graphical interface on port **7865**, allowing you to generate speech samples directly from your browser.
 
-> **⚠️ Note:** This Docker setup is built and tested exclusively for **NVIDIA GPUs** using the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html). Other hardware vendors (AMD/Intel) are currently unsupported in this container. For AMD/Intel users, the [ComfyUI integration](https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/discussions/7) may offer an alternative method to run ACE-Step models.
+> **Note:** This Docker setup is built and tested exclusively for **NVIDIA GPUs** using the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html). Other hardware vendors (AMD/Intel) are currently unsupported in this container. For AMD/Intel users, the [ComfyUI integration](https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B/discussions/7) may offer an alternative method to run ACE-Step models.
 
 ---
 
@@ -16,7 +16,7 @@ This repository provides a ready-to-use Docker environment for running [ACE-Step
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before getting started, make sure your system has:
 
@@ -93,6 +93,6 @@ You may find success using ACE-Step through ComfyUI instead
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - [ACE-Step](https://github.com/ace-step/ACE-Step): High-quality speech generation models and GUI by the ACE-Step team.
