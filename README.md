@@ -29,7 +29,7 @@ Note: the NVIDIA Container Toolkit may be included in a Docker Desktop install.
 To verify GPU access inside Docker:
 
 ```bash
-docker run --rm --gpus all nvidia/cuda:12.0-base nvidia-smi
+docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
 ```
 
 ---
