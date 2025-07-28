@@ -1,0 +1,17 @@
+services:
+  
+  acestep:
+    build: .
+    image: cgl/acestep
+    ports:
+      - "7865:7865"
+    volumes:
+      - "./outputs:/app/outputs"
+      - "./checkpoints:/home/ubuntu/.cache/ace-step/checkpoints"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
